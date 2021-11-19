@@ -10,7 +10,7 @@ int main() {
 
 	int *p, **dp, ***tp;
 
-	p = &i;
+	p = &i; 
 	dp = &p;
 	tp = &dp;
 
@@ -51,6 +51,3 @@ void func4(int**** p)
 {
 	****p=****p+100;
 }
-
-
-
